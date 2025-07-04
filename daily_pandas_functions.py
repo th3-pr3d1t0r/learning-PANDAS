@@ -13,3 +13,6 @@ df = pd.DataFrame({
 # 1. View first few rows
 print(df.head())
 
+# 2. View last few rows
+print(df.tail())
+
