@@ -16,3 +16,6 @@ print(df.head())
 # 2. View last few rows
 print(df.tail())
 
+# 3. Get shape of DataFrame
+print(df.shape)
+
