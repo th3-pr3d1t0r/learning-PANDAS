@@ -22,3 +22,6 @@ print(df.shape)
 # 4. Get column names
 print(df.columns)
 
+# 5. Get index
+print(df.index)
+
