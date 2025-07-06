@@ -19,3 +19,6 @@ print(df.tail())
 # 3. Get shape of DataFrame
 print(df.shape)
 
+# 4. Get column names
+print(df.columns)
+
