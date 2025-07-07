@@ -25,3 +25,6 @@ print(df.columns)
 # 5. Get index
 print(df.index)
 
+# 6. Basic info
+print(df.info())
+
