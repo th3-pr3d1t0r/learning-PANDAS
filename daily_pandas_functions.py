@@ -31,3 +31,6 @@ print(df.info())
 # 7. Summary statistics
 print(df.describe())
 
+# 8. Check for missing values
+print(df.isnull())
+
