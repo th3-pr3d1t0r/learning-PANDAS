@@ -28,3 +28,6 @@ print(df.index)
 # 6. Basic info
 print(df.info())
 
+# 7. Summary statistics
+print(df.describe())
+
