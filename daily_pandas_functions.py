@@ -40,3 +40,7 @@ print(df.isnull().sum())
 # 10. Check data types
 print(df.dtypes)
 
+# 11. Convert column to different dtype
+df['A'] = df['A'].astype(float)
+print(df.dtypes)
+
