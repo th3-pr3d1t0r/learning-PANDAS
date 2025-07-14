@@ -37,3 +37,6 @@ print(df.isnull())
 # 9. Count missing values per column
 print(df.isnull().sum())
 
+# 10. Check data types
+print(df.dtypes)
+
