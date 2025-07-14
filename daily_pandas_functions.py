@@ -34,3 +34,6 @@ print(df.describe())
 # 8. Check for missing values
 print(df.isnull())
 
+# 9. Count missing values per column
+print(df.isnull().sum())
+
