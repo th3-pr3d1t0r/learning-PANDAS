@@ -49,3 +49,7 @@ print(df.dtypes)
 df.rename(columns={'A': 'Alpha'}, inplace=True)
 print(df.head())
 
+# 13. Rename multiple columns
+df.rename(columns={'B': 'Beta', 'C': 'Gamma'}, inplace=True)
+print(df.head())
+
