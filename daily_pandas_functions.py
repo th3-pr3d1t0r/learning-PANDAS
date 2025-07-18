@@ -45,3 +45,7 @@ df['A'] = df['A'].astype(float)
 print(df.dtypes)
 df['A'] = df['A'].astype(float)
 print(df.dtypes)
+# 12. Rename a single column
+df.rename(columns={'A': 'Alpha'}, inplace=True)
+print(df.head())
+
