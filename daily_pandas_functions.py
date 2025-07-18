@@ -53,3 +53,7 @@ print(df.head())
 df.rename(columns={'B': 'Beta', 'C': 'Gamma'}, inplace=True)
 print(df.head())
 
+# 14. Set a column as index
+df.set_index('D', inplace=True)
+print(df.head())
+
