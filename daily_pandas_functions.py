@@ -57,3 +57,7 @@ print(df.head())
 df.set_index('D', inplace=True)
 print(df.head())
 
+# 15. Reset index back to default
+df.reset_index(inplace=True)
+print(df.head())
+
