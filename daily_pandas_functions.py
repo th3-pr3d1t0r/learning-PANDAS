@@ -61,3 +61,6 @@ print(df.head())
 df.reset_index(inplace=True)
 print(df.head())
 
+# 16. Selecting a single column
+print(df['Alpha'])
+
