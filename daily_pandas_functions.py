@@ -64,3 +64,6 @@ print(df.head())
 # 16. Selecting a single column
 print(df['Alpha'])
 
+# 17. Selecting multiple columns
+print(df[['Alpha', 'Beta']])
+
