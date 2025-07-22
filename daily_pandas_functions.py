@@ -67,3 +67,6 @@ print(df['Alpha'])
 # 17. Selecting multiple columns
 print(df[['Alpha', 'Beta']])
 
+# 18. Selecting rows by position
+print(df.iloc[2])
+
