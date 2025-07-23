@@ -70,3 +70,6 @@ print(df[['Alpha', 'Beta']])
 # 18. Selecting rows by position
 print(df.iloc[2])
 
+# 19. Selecting rows by index label
+print(df.loc[2])
+
