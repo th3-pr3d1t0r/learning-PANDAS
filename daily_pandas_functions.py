@@ -73,3 +73,6 @@ print(df.iloc[2])
 # 19. Selecting rows by index label
 print(df.loc[2])
 
+# 20. Selecting specific rows and columns
+print(df.loc[2, 'Beta'])
+
