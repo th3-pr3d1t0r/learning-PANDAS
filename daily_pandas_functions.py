@@ -79,3 +79,6 @@ print(df.loc[2, 'Beta'])
 # 21. Conditional selection
 print(df[df['Beta'] > 6])
 
+# 22. Filter with multiple conditions
+print(df[(df['Beta'] > 6) & (df['Gamma'] == 'foo')])
+
