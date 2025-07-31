@@ -76,3 +76,6 @@ print(df.loc[2])
 # 20. Selecting specific rows and columns
 print(df.loc[2, 'Beta'])
 
+# 21. Conditional selection
+print(df[df['Beta'] > 6])
+
