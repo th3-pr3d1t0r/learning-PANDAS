@@ -82,3 +82,6 @@ print(df[df['Beta'] > 6])
 # 22. Filter with multiple conditions
 print(df[(df['Beta'] > 6) & (df['Gamma'] == 'foo')])
 
+# 23. Using query
+print(df.query('Beta > 6'))
+
