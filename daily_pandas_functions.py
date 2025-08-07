@@ -85,3 +85,6 @@ print(df[(df['Beta'] > 6) & (df['Gamma'] == 'foo')])
 # 23. Using query
 print(df.query('Beta > 6'))
 
+# 24. Sort by a column ascending
+print(df.sort_values('Beta'))
+
