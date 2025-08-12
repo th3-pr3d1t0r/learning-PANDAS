@@ -95,3 +95,7 @@ print(df.sort_values('Beta', ascending=False))
 df['Delta'] = 10
 print(df.head())
 
+# 27. Add a new column (based on other columns)
+df['Epsilon'] = df['Alpha'] + df['Beta']
+print(df.head())
+
