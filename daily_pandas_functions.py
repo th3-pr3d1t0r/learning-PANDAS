@@ -91,3 +91,7 @@ print(df.sort_values('Beta'))
 # 25. Sort by a column descending
 print(df.sort_values('Beta', ascending=False))
 
+# 26. Add a new column (static value)
+df['Delta'] = 10
+print(df.head())
+
