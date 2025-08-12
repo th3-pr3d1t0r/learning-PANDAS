@@ -99,3 +99,7 @@ print(df.head())
 df['Epsilon'] = df['Alpha'] + df['Beta']
 print(df.head())
 
+# 28. Drop a single column
+df.drop('Delta', axis=1, inplace=True)
+print(df.head())
+
