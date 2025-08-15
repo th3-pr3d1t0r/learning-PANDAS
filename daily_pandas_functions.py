@@ -103,3 +103,7 @@ print(df.head())
 df.drop('Delta', axis=1, inplace=True)
 print(df.head())
 
+# 29. Drop multiple columns
+df.drop(['Epsilon'], axis=1, inplace=True)
+print(df.head())
+
