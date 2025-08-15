@@ -107,3 +107,7 @@ print(df.head())
 df.drop(['Epsilon'], axis=1, inplace=True)
 print(df.head())
 
+# 30. Drop a row by index
+df.drop(0, axis=0, inplace=True)
+print(df.head())
+
