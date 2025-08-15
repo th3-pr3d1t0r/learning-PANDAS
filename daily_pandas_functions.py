@@ -115,3 +115,7 @@ print(df.head())
 df.reset_index(drop=True, inplace=True)
 print(df.head())
 
+# 32. Insert column at specific location
+df.insert(1, 'Zeta', ['a', 'b', 'c', 'd'])
+print(df.head())
+
