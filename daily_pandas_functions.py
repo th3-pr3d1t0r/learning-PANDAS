@@ -111,3 +111,7 @@ print(df.head())
 df.drop(0, axis=0, inplace=True)
 print(df.head())
 
+# 31. Reset index after drop
+df.reset_index(drop=True, inplace=True)
+print(df.head())
+
